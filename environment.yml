@@ -1,6 +1,6 @@
 name: phy
 dependencies:
-  - python
+  - python=3.5
   - numpy
   - matplotlib
   - scipy
@@ -10,6 +10,7 @@ dependencies:
     - vispy
     - requests
     - traitlets
+    - tqdm
     - six
     - joblib
     - click
